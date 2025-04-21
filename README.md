@@ -8,7 +8,7 @@ The data was cleaned to just the 20 most popular beers, which equated to around 
 ## Naive
 The naive approach consisted of returning the most common beer in the dataset. This was quite unsuccessful due to the even distribution of beers, resulting in little accuracy.
 ## Non-DL
-The Non-DL approach was TF-IDF. The reveiws were grouped so each review funcioned like a document. The maximum features per vector was then tested upon to be optimized, and then retrained and vectorized again. The vectors were then related via cosine similarity for testing.
+The Non-DL approach was TF-IDF. The reveiws were grouped so each beer funcioned like a document which composed all of its reviews. The maximum features per vector was then tested upon to be optimized, and then retrained and vectorized again. The vectors were then related via cosine similarity for testing.
 ## Deep Learning
 The Deep Learning approach used a fine-tuned version of DistillBERT. The lightweightness of the model allowed more experimentation in the training process, hence its selection. The last two layers were unfrozen for training, and parameters were varied till a decision was made. Another output layer was trained for the classification esque task.
 ## Evaluation
