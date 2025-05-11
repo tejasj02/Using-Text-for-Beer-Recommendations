@@ -1,4 +1,4 @@
-# dl-final-project
+# Text for beer recommender
 
 ## Motivation
 Often it is hard to connect non-quantitative reviews together, so I wanted to create a sort of recommender or general model that could take in descriptions of what you'd want in a product and return a product similar to that.
